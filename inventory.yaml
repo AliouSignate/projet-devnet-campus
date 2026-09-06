@@ -1,0 +1,46 @@
+sites:
+  - name: dakar
+    vlan_id: 10
+    devices:
+      - name: R1-DKR
+        mgmt_ip: 192.168.100.4
+        role_hint: router
+      - name: SW1-CORE
+        mgmt_ip: 10.10.10.2
+        role_hint: core_switch
+      - name: SW1-ACC
+        mgmt_ip: 10.10.10.3
+        role_hint: access_switch
+
+  - name: abidjan
+    vlan_id: 20
+    devices:
+      - name: R2-ABJ
+        mgmt_ip: 192.168.100.2
+        role_hint: router
+      - name: SW2-CORE
+        mgmt_ip: 10.20.10.2
+        role_hint: core_switch
+      - name: SW2-ACC
+        mgmt_ip: 10.20.10.3
+        role_hint: access_switch
+
+  - name: saint_louis
+    vlan_id: 30
+    devices:
+      - name: R3-SL
+        mgmt_ip: 192.168.100.3
+        role_hint: router
+      - name: SW3-CORE
+        mgmt_ip: 10.30.30.2
+        role_hint: core_switch
+      - name: SW3-ACC
+        mgmt_ip: 10.30.30.3
+        role_hint: access_switch
+
+connection:
+  port: 22
+  timeout: 15
+
+eigrp:
+  as_number: 100

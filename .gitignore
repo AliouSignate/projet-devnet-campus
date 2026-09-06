@@ -1,0 +1,19 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Fichiers générés à l'exécution
+logs/*.log
+backups/*.txt
+
+# Éditeurs
+.vscode/
+.idea/

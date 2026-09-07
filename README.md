@@ -262,7 +262,7 @@ Ping PC1 → PC5 (10.30.30.10, Saint-Louis) : succès (5/5)
 
 
 
-Voir captures d'écran dans le rapport technique joint.
+
 
 
 

@@ -113,6 +113,23 @@ projet-devnet-campus/
 - [x] Aucun secret en clair dans le code (variables d'environnement `.env`)
 - [x] Au moins un test automatisé (pytest sur `detect_role()`)
 - [x] Historique Git avec plusieurs commits significatifs
+## Captures d'écran
+
+### Tests automatisés (pytest)
+
+![Tests pytest](docs/screenshots/01_pytest.png)
+
+### Exécution finale de main.py sur les 9 équipements
+
+![Exécution finale](docs/screenshots/02_execution_finale.png)
+
+### Vérification finale — ping inter-sites (PC1 → PC2, PC3, PC5)
+
+![Ping final](docs/screenshots/03_ping_final.png)
+
+### Migration OSPF vers EIGRP (validée sur R2-ABJ)
+
+![Migration EIGRP](docs/screenshots/04_migration_eigrp.png)
 
 ## Limites connues
 

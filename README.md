@@ -76,13 +76,9 @@ copy .env.example .env
 
 Puis édite `.env` avec les vrais identifiants du lab :
 
-NET\_USERNAME=admin
-
-NET\_PASSWORD=admin123
-
-NET\_SECRET=admin123
-
-
+NET_USERNAME=admin
+NET_PASSWORD=<votre_mot_de_passe>
+NET_SECRET=<votre_mot_de_passe>
 
 
 

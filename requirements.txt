@@ -1,0 +1,4 @@
+netmiko
+pyyaml
+python-dotenv
+pytest

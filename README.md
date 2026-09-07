@@ -18,6 +18,10 @@ Automatisation Réseau.
 - **Backbone WAN** : 192.168.100.0/24, reliant les 3 routeurs
 - **Simulé sous GNS3** (routeurs c7200, switches IOU L2)
 
+### Topologie réalisée dans GNS3
+
+![Topologie GNS3](docs/screenshots/00_topologie_gns3.png)
+
 ## Prérequis
 
 - Python 3.10+
